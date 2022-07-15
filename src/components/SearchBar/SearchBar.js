@@ -55,8 +55,8 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className="SearchBar">
-      <h1>Find any place around you with Yelp©</h1>
-      <p><a href="https://cors-anywhere.herokuapp.com/corsdemo">Please request temporary access to the demo server to enable the webapp</a></p>
+      <h1>Find any place around you with Cocci Discoverer</h1>
+      <p><a href="https://cors-anywhere.herokuapp.com/corsdemo">Click here to enable the web search</a></p>
         <div className="SearchBar-sort-options">
           <ul>
             {this.renderSortByOptions()}
